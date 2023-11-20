@@ -1,3 +1,6 @@
+# Derek Livermont
+# Module 6 DB Connector Test
+
 import mysql.connector
 from mysql.connector import errorcode
 config = {
