@@ -1,0 +1,330 @@
+Database user bacchus_user connected to MySQL on host 127.0.0.1 with database bacchus
+--DISPLAYING Employee RECORDS --
+Employee ID: 1
+Employee Name: Debrah Messing
+Employee Position: Production
+Employee Pay Rate: $18.00
+Employee Hire Date: 2020-03-20
+
+Employee ID: 2
+Employee Name: Brad Pitt
+Employee Position: Shift Lead
+Employee Pay Rate: $20.00
+Employee Hire Date: 2018-08-21
+
+Employee ID: 3
+Employee Name: Tina Fey
+Employee Position: Custodian
+Employee Pay Rate: $17.00
+Employee Hire Date: 2019-04-07
+
+Employee ID: 4
+Employee Name: Debbie Reynolds
+Employee Position: Production
+Employee Pay Rate: $18.00
+Employee Hire Date: 2021-03-02
+
+Employee ID: 5
+Employee Name: Alec Baldwin
+Employee Position: Production
+Employee Pay Rate: $18.00
+Employee Hire Date: 2022-05-28
+
+Employee ID: 6
+Employee Name: Amy Poehler
+Employee Position: Quality Assurance
+Employee Pay Rate: $23.00
+Employee Hire Date: 2022-05-28
+
+--DISPLAYING Clock-in RECORDS --
+Clock-in ID: 1
+Employee Name: Debrah Messing
+Clock In: 2023-11-27 08:00:00
+Clock Out: 2023-11-27 16:00:00
+
+Clock-in ID: 2
+Employee Name: Brad Pitt
+Clock In: 2023-11-27 07:30:00
+Clock Out: 2023-11-27 15:30:00
+
+Clock-in ID: 3
+Employee Name: Tina Fey
+Clock In: 2023-11-27 12:00:00
+Clock Out: 2023-11-27 20:00:00
+
+Clock-in ID: 4
+Employee Name: Debbie Reynolds
+Clock In: 2023-11-27 08:00:00
+Clock Out: 2023-11-27 16:00:00
+
+Clock-in ID: 5
+Employee Name: Alec Baldwin
+Clock In: 2023-11-27 08:00:00
+Clock Out: 2023-11-27 16:00:00
+
+Clock-in ID: 6
+Employee Name: Amy Poehler
+Clock In: 2023-11-27 09:00:00
+Clock Out: 2023-11-27 17:00:00
+
+--DISPLAYING Distributor RECORDS --
+Distributor ID: 1
+Distributor Name: Ben's Distribution Co
+Distributor Contact: Jeff Stevens
+Distributor Email: jstevens@bensdistco.com
+Distributor Phone: 6884598764
+
+Distributor ID: 2
+Distributor Name: Larry's Liquor Store
+Distributor Contact: Larry Jones
+Distributor Email: None
+Distributor Phone: 6235761234
+
+Distributor ID: 3
+Distributor Name: Betty's Wine and Spirits Wholesale
+Distributor Contact: Jessica Lee
+Distributor Email: jlee@bettyswinenspirits.com
+Distributor Phone: 6665551234
+
+Distributor ID: 4
+Distributor Name: Cask and Cork Wine Distribution
+Distributor Contact: Sam Rogers
+Distributor Email: srogers@caskncork.com
+Distributor Phone: 3654511572
+
+Distributor ID: 5
+Distributor Name: Wine World
+Distributor Contact: Jeff Goldblum
+Distributor Email: jeff.goldblum@wineworld.com
+Distributor Phone: 8887776543
+
+Distributor ID: 6
+Distributor Name: In Vino Veritas
+Distributor Contact: Vicki Vivacious
+Distributor Email: v.vivacious@invinoveritas.com
+Distributor Phone: 6055558888
+
+--DISPLAYING Wine RECORDS --
+Wine ID: 1
+Wine Type: Chardonnay
+Wine Production Date: 2023-09-15
+Wine Quantity: 300 bottles
+
+Wine ID: 2
+Wine Type: Chablis
+Wine Production Date: 2023-08-15
+Wine Quantity: 300 bottles
+
+Wine ID: 3
+Wine Type: Merlot
+Wine Production Date: 2023-08-30
+Wine Quantity: 300 bottles
+
+Wine ID: 4
+Wine Type: Cabernet
+Wine Production Date: 2023-09-05
+Wine Quantity: 300 bottles
+
+Wine ID: 5
+Wine Type: Red Blend
+Wine Production Date: 2023-08-20
+Wine Quantity: 300 bottles
+
+Wine ID: 6
+Wine Type: White Blend
+Wine Production Date: 2023-10-01
+Wine Quantity: 300 bottles
+
+--DISPLAYING Wine Order RECORDS --
+Wine Order ID: 1
+Distributor Name: Ben's Distribution Co
+Order Date: 2023-11-02
+Expected Delivery: 2023-11-09
+Actual Delivery: 2023-11-10
+
+Wine Order ID: 2
+Distributor Name: Larry's Liquor Store
+Order Date: 2023-11-04
+Expected Delivery: 2023-11-11
+Actual Delivery: 2023-11-12
+
+Wine Order ID: 3
+Distributor Name: Betty's Wine and Spirits Wholesale
+Order Date: 2023-11-04
+Expected Delivery: 2023-11-08
+Actual Delivery: 2023-11-08
+
+Wine Order ID: 4
+Distributor Name: Cask and Cork Wine Distribution
+Order Date: 2023-11-11
+Expected Delivery: 2023-11-17
+Actual Delivery: 2023-11-17
+
+Wine Order ID: 5
+Distributor Name: Wine World
+Order Date: 2023-11-02
+Expected Delivery: 2023-11-07
+Actual Delivery: 2023-11-07
+
+Wine Order ID: 6
+Distributor Name: In Vino Veritas
+Order Date: 2023-11-30
+Expected Delivery: 2023-12-03
+Actual Delivery: None
+
+--DISPLAYING Wine Order Line RECORDS --
+Wine Order Line ID: 1
+Distributor Name: Ben's Distribution Co
+Wine Type: Chardonnay
+Wine Quantity: 120 bottles
+Wine Price: $24.50
+
+Wine Order Line ID: 2
+Distributor Name: Larry's Liquor Store
+Wine Type: Chablis
+Wine Quantity: 24 bottles
+Wine Price: $24.50
+
+Wine Order Line ID: 3
+Distributor Name: Betty's Wine and Spirits Wholesale
+Wine Type: Merlot
+Wine Quantity: 60 bottles
+Wine Price: $24.50
+
+Wine Order Line ID: 4
+Distributor Name: Cask and Cork Wine Distribution
+Wine Type: Cabernet
+Wine Quantity: 100 bottles
+Wine Price: $24.50
+
+Wine Order Line ID: 5
+Distributor Name: Wine World
+Wine Type: Red Blend
+Wine Quantity: 72 bottles
+Wine Price: $24.50
+
+Wine Order Line ID: 6
+Distributor Name: In Vino Veritas
+Wine Type: White Blend
+Wine Quantity: 96 bottles
+Wine Price: $24.50
+
+--DISPLAYING Supplier RECORDS --
+Supplier ID: 1
+Supplier Name: Wine Time
+Supplier Contact: Joe Smith
+Supplier Email: joesmith@winetime.com
+Supplier Phone: 8003224567
+
+Supplier ID: 2
+Supplier Name: Boxes and Things
+Supplier Contact: Mary Johnson
+Supplier Email: mjohnson@boxesnthings.com
+Supplier Phone: 8004567892
+
+Supplier ID: 3
+Supplier Name: Brewing Buds
+Supplier Contact: Jeff Field
+Supplier Email: jeff.field@brewingbuds.com
+Supplier Phone: 6053725555
+
+--DISPLAYING Component RECORDS --
+Component ID: 1
+component Name: 750ml Glass Bottle
+Component Quantity On-hand: 200
+
+Component ID: 2
+component Name: Standard Cork
+Component Quantity On-hand: 500
+
+Component ID: 3
+component Name: Labels
+Component Quantity On-hand: 1000
+
+Component ID: 4
+component Name: 12-bottle Cardboard Box
+Component Quantity On-hand: 100
+
+Component ID: 5
+component Name: 225 Liter Vat
+Component Quantity On-hand: 10
+
+Component ID: 6
+component Name: Vinyl Tubing Ft.
+Component Quantity On-hand: 300
+
+--DISPLAYING Supply Order RECORDS --
+Supply Order ID: 1
+Supplier Name: Wine Time
+Order Date: 2023-11-01
+Expected Delivery: 2023-11-08
+Actual Delivery: 2023-11-09
+
+Supply Order ID: 2
+Supplier Name: Wine Time
+Order Date: 2023-11-05
+Expected Delivery: 2023-11-12
+Actual Delivery: 2023-11-13
+
+Supply Order ID: 3
+Supplier Name: Boxes and Things
+Order Date: 2023-11-02
+Expected Delivery: 2023-11-06
+Actual Delivery: 2023-11-06
+
+Supply Order ID: 4
+Supplier Name: Boxes and Things
+Order Date: 2023-11-10
+Expected Delivery: 2023-11-16
+Actual Delivery: 2023-11-15
+
+Supply Order ID: 5
+Supplier Name: Brewing Buds
+Order Date: 2023-11-03
+Expected Delivery: 2023-11-06
+Actual Delivery: 2023-11-07
+
+Supply Order ID: 6
+Supplier Name: Brewing Buds
+Order Date: 2023-11-28
+Expected Delivery: 2023-12-02
+Actual Delivery: None
+
+--DISPLAYING Supply Order Line RECORDS --
+Supply Order Line ID: 1
+Supplier Name: Wine Time
+Supply Type: 750ml Glass Bottle
+Quantity Ordered: 300
+Supply Price/Unit: $0.98
+
+Supply Order Line ID: 2
+Supplier Name: Wine Time
+Supply Type: Standard Cork
+Quantity Ordered: 200
+Supply Price/Unit: $0.38
+
+Supply Order Line ID: 3
+Supplier Name: Boxes and Things
+Supply Type: Labels
+Quantity Ordered: 500
+Supply Price/Unit: $0.22
+
+Supply Order Line ID: 4
+Supplier Name: Boxes and Things
+Supply Type: 12-bottle Cardboard Box
+Quantity Ordered: 100
+Supply Price/Unit: $1.25
+
+Supply Order Line ID: 5
+Supplier Name: Brewing Buds
+Supply Type: 225 Liter Vat
+Quantity Ordered: 20
+Supply Price/Unit: $638.00
+
+Supply Order Line ID: 6
+Supplier Name: Brewing Buds
+Supply Type: Vinyl Tubing Ft.
+Quantity Ordered: 200
+Supply Price/Unit: $1.20
+
+Press Enter to Exit...
